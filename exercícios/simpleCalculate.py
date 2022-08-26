@@ -1,0 +1,10 @@
+c1 = float(input("Informe o código do produto 1: "))
+q1 = float(input("Informe o número de unidades do produto 1: "))
+v1 = float(input("Informe o valor de uma unidade do produto 1: "))
+c2 = float(input("Informe o código do produto 2: "))
+q2 = float(input("Informe o número de unidades do produto 2: "))
+v2 = float(input("Informe o valor de uma unidade do produto 2: "))
+p1 = q1 * v1
+p2 = q2 * v2
+total = p1 + p2
+print(f"VALOR A PAGAR = R$, {total: .2f}")

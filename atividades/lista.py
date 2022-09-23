@@ -1,4 +1,4 @@
-from node import Node
+from atividades.node import Node
 
 
 class Lista:
